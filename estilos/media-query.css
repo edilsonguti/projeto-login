@@ -13,6 +13,7 @@ Grandes telas: acima de 1200px
 
     body {
         background-image: linear-gradient(to top, #49a09d, #5f2c82);
+        text-align: center;
     }
 
     section#login {
@@ -28,7 +29,8 @@ Grandes telas: acima de 1200px
 
     section#login > div#formulario {
         float: right;
-        width: 70%;        
+        width: 70%;
+        text-align: center;        
     }
 }
 
@@ -48,16 +50,12 @@ Grandes telas: acima de 1200px
         height: 100%;
     }
 
-@media ()min-width: 992px) {    
-        .botao {
-        flex: 0 0 auto;
-        width: auto;
-        }
     }
 
     section#login > div#formulario {
         float: left;
         width: 50%;
+        
     }
 
     div#formulario > h1 {
